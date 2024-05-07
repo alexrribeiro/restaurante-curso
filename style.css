@@ -1,0 +1,54 @@
+* {
+    font-size: 16px;
+    font-family: 'Overlock', sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #DDD;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.cabecalho {
+    border: 2px solid #DDD;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 3rem auto 0 auto;
+    background-color: rgba(28, 28, 28, 0.3);
+}
+
+.cabecalho-marca-link {
+    font-family: 'Caveat', cursive;
+    color: #DDD;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.cabecalho-menu-lista {
+    list-style-type: none;
+}
+
+.cabecalho-menu-lista-link {
+    color: #DDD;
+    text-decoration: none;
+}
+
+.conteudo {
+    border: 1px solid orange;
+}
+
+.subtitulo {
+    color: orange;
+}
+
+.rodape {
+    border: 1px solid #F33;
+}
+
+.empresa {
+    color: #F33;
+}

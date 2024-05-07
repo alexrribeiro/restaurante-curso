@@ -1,6 +1,7 @@
 * {
     font-size: 16px;
     font-family: 'Overlock', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,6 +20,12 @@ h2 {
     width: 95%;
     margin: 3rem auto 0 auto;
     background-color: rgba(28, 28, 28, 0.3);
+    height: 6.5rem;
+    padding: 1.25rem;
+}
+
+.cabecalho-marca {
+    align-self: center;
 }
 
 .cabecalho-marca-link {
@@ -28,13 +35,27 @@ h2 {
     text-decoration: none;
 }
 
+.cabecalho-menu {
+    align-self: center;
+}
+
 .cabecalho-menu-lista {
     list-style-type: none;
+    display: flex;
 }
 
 .cabecalho-menu-lista-link {
     color: #DDD;
     text-decoration: none;
+    padding: 0.25rem;
+    margin: 0 0.625rem;
+    font-size: 1.125rem;
+}
+
+.cabecalho-menu-lista-link:hover {
+    color: #F87;
+    border-bottom: 2px solid #F87;
+    background-color: rgba(28, 28, 28, 0.65);
 }
 
 .conteudo {

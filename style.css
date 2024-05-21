@@ -89,10 +89,21 @@ h2 {
 }
 
 .rodape {
-    border: 1px solid #F33;
+    border-top: 2px solid whitesmoke;
     min-height: 15rem;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.rodape-caixa {
+    border: 1px solid lime;
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .rodape-esquerda {

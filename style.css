@@ -39,6 +39,10 @@ h2 {
     text-decoration: none;
 }
 
+.cabecalho-marca-icone {
+    height: 2.25rem;
+}
+
 .cabecalho-menu {
     align-self: center;
 }
@@ -62,7 +66,7 @@ h2 {
     background-color: rgba(28, 28, 28, 0.65);
 }
 
-.conteudo {
+.conteudo-index {
     height: calc(100vh - 9.5rem);
     width: 95%;
     margin: 0 auto;
@@ -71,7 +75,7 @@ h2 {
     align-items: center;
 }
 
-.conteudo-caixa {
+.conteudo-caixa-index {
     width: 50%;
     background-color: rgba(28, 28, 28, 0.5);
     border-right: 2px solid whitesmoke;
@@ -112,6 +116,18 @@ h2 {
     font-size: 2.5rem;
 }
 
+.rodape-marca-icone {
+    height: 1.95rem;
+}
+
+.laranja {
+    color: #F87;
+}
+
+.verde {
+    color: #25D366;
+}
+
 .rodape-subtitulo {
     color: #F87;
     font-size: 1.25rem;
@@ -124,6 +140,20 @@ h2 {
     flex-direction: column;
     max-width: 40%;
     text-align: right;
+}
+
+.rodape-link {
+    text-decoration: none;
+}
+
+.rodape-icone-link {
+    font-size: 1.75rem;
+    margin-left: 0.5rem;
+    color: whitesmoke;
+}
+
+.rodape-icone-link:hover {
+    color: #F87;
 }
 
 .rodape-atencao {

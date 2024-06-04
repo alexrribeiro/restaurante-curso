@@ -98,18 +98,34 @@ h2 {
 }
 
 .rodape-caixa {
-    border: 1px solid lime;
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: 100%;
     margin: 0 auto;
+    padding-bottom: 1.5rem;
 }
 
-.rodape-esquerda {
-    border: 1px solid yellow;
+.rodape-marca {
+    font-family: 'Caveat', cursive;
+    color: #DDD;
+    font-size: 2.5rem;
+}
+
+.rodape-subtitulo {
+    color: #F87;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .rodape-direita {
-    border: 1px solid cyan;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: right;
+}
+
+.rodape-atencao {
+    color: yellow;
 }

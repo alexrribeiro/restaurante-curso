@@ -66,6 +66,29 @@ h2 {
     background-color: rgba(28, 28, 28, 0.65);
 }
 
+.conteudo {
+    border: 2px solid whitesmoke;
+
+    width: 95%;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.conteudo-esquerda {
+    width: 40%;
+    background-image: url("images/goulash-4999166_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-direita {
+    width: 60%;
+    background-color: rgba(245, 245, 245, 0.8);
+    color: #222;
+    padding: 1rem;
+}
+
 .conteudo-index {
     height: calc(100vh - 9.5rem);
     width: 95%;
@@ -82,7 +105,35 @@ h2 {
     padding: 1rem;
 }
 
+.conteudo-titulo {
+    color: orangered;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
 .conteudo-subtitulo {
+    color: orangered;
+    font-size: 1.25rem;
+}
+
+.conteudo-texto {
+    text-align: justify;
+}
+
+.conteudo-imagem-1 {
+    width: 360px;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.conteudo-imagem-2 {
+    width: 120px;
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 100%;
+}
+
+.conteudo-subtitulo-index {
     color: #F87;
     font-size: 2.5rem;
 }

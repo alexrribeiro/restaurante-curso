@@ -143,6 +143,31 @@ h2 {
     font-style: italic;
 }
 
+.conteudo-tabela {
+    border: 1px dashed orangered;
+    margin: 0 auto;
+    width: 75%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.conteudo-tabela-titulo {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.conteudo-tabela-linha {
+    background-color: #F87;
+}
+
+.conteudo-tabela-linha:nth-child(even) {
+    background-color: #FAA;
+}
+
+.conteudo-tabela-coluna {
+    border: 1px dashed whitesmoke;
+}
+
 .rodape {
     border-top: 2px solid whitesmoke;
     min-height: 15rem;

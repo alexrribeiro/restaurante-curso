@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Bonchef</title>
+    <link rel="shortcut icon" href="icons/chapeu_chef.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho-marca">
+            <a href="index.html" class="cabecalho-marca-link">bon<img src="icons/chapeu_chef.svg" alt="Ícone de um chapéu de cozinheiro" class="cabecalho-marca-icone">chef</a>
+        </section>
+        <section class="cabecalho-menu">
+            <nav class="cabecacho-menu-nav">
+                <ul class="cabecalho-menu-lista">
+                    <li class="cabelho-menu-lista-item"><a href="index.html" class="cabecalho-menu-lista-link">Página inicial</a></li>
+                    <li class="cabelho-menu-lista-item"><a href="sobre.html" class="cabecalho-menu-lista-link">Sobre nós</a></li>
+                    <li class="cabelho-menu-lista-item"><a href="cardapio/cardapio.pdf" class="cabecalho-menu-lista-link" target="_blank">Cardápio</a></li>
+                    <li class="cabelho-menu-lista-item"><a href="contato.html" class="cabecalho-menu-lista-link">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="conteudo">
+        <div class="conteudo-esquerda conteudo-esquerda-contato">
+            &nbsp;
+        </div>
+        <div class="conteudo-direita">
+            <h2 class="conteudo-titulo">Contato</h2>
+            <p class="conteudo-texto">Preencha o formulário abaixo para entrar em contato conosco:</p>
+            <form action="javascript:alert('Dados enviados com sucesso!')">
+                <label for="nome" class="formulario-rotulo">Nome:</label>
+                <input type="text" class="formulario-caixa" id="nome" required>
+
+                <label for="email" class="formulario-rotulo">E-mail:</label>
+                <input type="email" name="email" id="email" class="formulario-caixa" required>
+
+                <label for="telefone" class="formulario-rotulo">Telefone/Celular:</label>
+                <input type="tel" name="telefone" id="telefone" class="formulario-caixa" required>
+
+                <label for="tipocontato" class="formulario-rotulo">Tipo de contato:</label>
+                <select name="tipocontato" id="tipocontato" class="formulario-caixa">
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="outro">Outro</option>
+                    <option value="selecione" selected>Selecione</option>
+                </select>
+
+                <label for="mensagem" class="formulario-rotulo">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" class="formulario-caixa"></textarea>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape-caixa">
+            <section class="rodape-esquerda">
+                <h2 class="rodape-marca">bon<img src="icons/chapeu_chef.svg" alt="Ícone de um chapéu de cozinheiro" class="rodape-marca-icone">chef</h2>
+                <h3 class="rodape-subtitulo">Visite-nos:</h3>
+                <span class="rodape-info">Av. Peixoto de Castro, 420 - Bairro da Cruz. Lorena/SP</span>
+
+                <h3 class="rodape-subtitulo">Informações e entregas:</h3>
+                <span class="rodape-info"><i class="icon-phone laranja"></i> (12) 3333-3333</span>
+                <br>
+                <span class="rodape-info"><i class="icon-whatsapp1 verde"></i> (12) 99999-9999</span>
+
+                <h3 class="rodape-subtitulo">Horários de funcionamento:</h3>
+                <span class="rodape-info">Segunda a quinta-feira: 10h-14h; 18h-22h</span>
+                <br>
+                <span class="rodape-info">Sexta-feira: 10-14h; 18h-24h</span>
+                <br>
+                <span class="rodape-info">Sábado: 10h-16h; 18h-24h</span>
+                <br>
+                <span class="rodape-info">Domingos e feriados: 14h-22h</span>
+            </section>
+            <section class="rodape-direita">
+                <div class="rodape-direita-redes">
+                    <h3 class="rodape-subtitulo">Siga-nos nas redes sociais:</h3>
+                    <a href="https://facebook.com/" target="_blank" class="rodape-link"><i class="icon-facebook2 rodape-icone-link"></i></a>
+                    <a href="https://instagram.com/" target="_blank" class="rodape-link"><i class="icon-instagram rodape-icone-link"></i></a>
+                    <a href="https://x.com/" target="_blank" class="rodape-link"><i class="icon-x rodape-icone-link"></i></a>
+                    <a href="https://linkedin.com/in/" target="_blank" class="rodape-link"><i class="icon-linkedin rodape-icone-link"></i></a>
+                </div>
+                
+                <span class="rodape-atencao">
+                    <strong>Atenção: </strong>Esta é uma empresa <u>fictícia</u> criada para um projeto no curso de Desenvolvimento Web.
+                </span>
+
+                <p class="rodape-info">&copy; <script>javascript: document.write(new Date().getFullYear());</script> | Seu nome | Todos os direitos reservados.</p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

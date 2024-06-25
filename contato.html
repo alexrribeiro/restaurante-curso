@@ -55,11 +55,16 @@
                 </select>
 
                 <label for="mensagem" class="formulario-rotulo">Sua mensagem:</label>
-                <textarea name="mensagem" id="mensagem" class="formulario-caixa"></textarea>
+                <textarea name="mensagem" id="mensagem" class="formulario-caixa" rows="5" style="resize: none;"></textarea>
 
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <div class="formulario-botoes">
+                    <input type="submit" value="Enviar" class="formulario-botao formulario-botao-enviar">
+                    <input type="reset" value="Limpar" class="formulario-botao formulario-botao-limpar">
+                </div>                
             </form>
+            <hr>
+            <p class="conteudo-texto">Para pedidos de delivery use o Whatsapp abaixo:</p>
+            <a href="https://api.whatsapp.com/send?phone=+5512999999999&text=Olá! Eu quero fazer um pedido." target="_blank" class="formulario-botao botao-whatsapp"><i class="icon-whatsapp1"></i> Contato via Whatsapp</a>
         </div>
     </main>
     <footer class="rodape">

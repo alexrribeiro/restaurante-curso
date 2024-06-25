@@ -17,6 +17,10 @@ h2 {
     font-size: 1.5rem;
 }
 
+.cabecalho, .conteudo, .conteudo-index, .rodape-caixa {
+    max-width: 1298px;
+}
+
 .cabecalho {
     border: 2px solid #DDD;
     display: flex;
@@ -45,6 +49,10 @@ h2 {
 
 .cabecalho-menu {
     align-self: center;
+}
+
+.cabecalho-menu-hamburguer {
+    display: none;
 }
 
 .cabecalho-menu-lista {
@@ -299,4 +307,39 @@ h2 {
 
 .rodape-atencao {
     color: yellow;
+}
+
+/* Otimizando para dispositivos móveis com tela até 480px */
+
+@media screen and (max-width: 480px) {
+    .cabecalho-menu {
+        display: none;
+    }
+
+    .cabecalho-menu-hamburguer {
+        display: block;
+        align-self: center;
+    }
+
+    .icon-menu {
+        font-size: 2.5rem;
+    }
+
+    .conteudo-caixa-index {
+        width: 100%;
+        border: 2px solid whitesmoke;
+    }
+
+    .rodape-caixa {
+        display: block;
+    }
+
+    .rodape-direita {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .rodape-atencao {
+        margin-top: 1rem;
+    }
 }
